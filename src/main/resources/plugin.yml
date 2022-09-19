@@ -1,0 +1,10 @@
+name: FirstPlugin
+version: '${project.version}'
+main: me.fari.firstplugin.Firstplugin
+api-version: 1.19
+authors: [ faringet ]
+
+commands:
+  startRandomPhrase:
+    description: начинает отпралять рандомные фразы
+
